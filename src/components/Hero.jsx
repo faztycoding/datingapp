@@ -7,9 +7,9 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            <h1 className="text-3xl md:text-5xl font-bold mb-6">
               กัญชาคุณภาพ
-              <span className="block text-cannabis-accent">Premium Grade</span>
+              <span className="block text-cannabis-accent text-2xl md:text-4xl">Premium Grade</span>
             </h1>
             <p className="text-xl mb-8 text-gray-100">
               สัมผัสประสบการณ์กัญชาที่ดีที่สุดกับผลิตภัณฑ์คุณภาพสูง 

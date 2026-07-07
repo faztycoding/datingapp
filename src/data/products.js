@@ -8,7 +8,7 @@ export const products = [
     thc: 22,
     cbd: 0.5,
     description: "สายพันธุ์คลาสสิกที่มีกลิ่นหอมเข้มข้น ให้ความรู้สึกผ่อนคลายสูง เหมาะสำหรับการนอนหลับและบรรเทาความเครียด",
-    image: "https://images.unsplash.com/photo-1590995461395-2a5c6b1aa497?w=400&h=400&fit=crop",
+    image: "/images/products/Picture-flower-32.webp",
     inStock: true,
     rating: 4.8,
     reviews: 156
@@ -36,7 +36,7 @@ export const products = [
     thc: 25,
     cbd: 0.8,
     description: "สายพันธุ์ไฮบริดที่ให้ความรู้สึกสมดุล ผ่อนคลายแต่ยังคงความสดชื่น มีกลิ่นหอมหวาน",
-    image: "https://images.unsplash.com/photo-1603095844334-7e40c1bc9b3e?w=400&h=400&fit=crop",
+    image: "/images/products/Blissful-Wizard.jpg",
     inStock: true,
     rating: 4.9,
     reviews: 189
@@ -106,7 +106,7 @@ export const products = [
     thc: 24,
     cbd: 0.4,
     description: "สายพันธุ์ indica บริสุทธิ์ที่ให้ความรู้สึกผ่อนคลายสูง ช่วยบรรเทาอาการปวดและนอนไม่หลับ",
-    image: "https://images.unsplash.com/photo-1541240771906-789c1a1a6b4b?w=400&h=400&fit=crop",
+    image: "/images/products/Northern-Lights.jpg",
     inStock: true,
     rating: 4.8,
     reviews: 178
