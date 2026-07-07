@@ -1,0 +1,121 @@
+export const products = [
+  {
+    id: 1,
+    name: "กัญชาสายพันธุ์ OG Kush",
+    nameEn: "OG Kush",
+    category: "indica",
+    price: 350,
+    thc: 22,
+    cbd: 0.5,
+    description: "สายพันธุ์คลาสสิกที่มีกลิ่นหอมเข้มข้น ให้ความรู้สึกผ่อนคลายสูง เหมาะสำหรับการนอนหลับและบรรเทาความเครียด",
+    image: "https://images.unsplash.com/photo-1590995461395-2a5c6b1aa497?w=400&h=400&fit=crop",
+    inStock: true,
+    rating: 4.8,
+    reviews: 156
+  },
+  {
+    id: 2,
+    name: "กัญชาสายพันธุ์ Blue Dream",
+    nameEn: "Blue Dream",
+    category: "sativa",
+    price: 320,
+    thc: 18,
+    cbd: 0.2,
+    description: "สายพันธุ์ยอดนิยมที่ให้ความรู้สึกสดชื่น กระปรี้กระเปร่า เหมาะสำหรับกิจกรรมกลางวันและการสร้างสรรค์",
+    image: "https://images.unsplash.com/photo-1541240771906-789c1a1a6b4b?w=400&h=400&fit=crop",
+    inStock: true,
+    rating: 4.6,
+    reviews: 203
+  },
+  {
+    id: 3,
+    name: "กัญชาสายพันธุ์ Girl Scout Cookies",
+    nameEn: "Girl Scout Cookies",
+    category: "hybrid",
+    price: 380,
+    thc: 25,
+    cbd: 0.8,
+    description: "สายพันธุ์ไฮบริดที่ให้ความรู้สึกสมดุล ผ่อนคลายแต่ยังคงความสดชื่น มีกลิ่นหอมหวาน",
+    image: "https://images.unsplash.com/photo-1603095844334-7e40c1bc9b3e?w=400&h=400&fit=crop",
+    inStock: true,
+    rating: 4.9,
+    reviews: 189
+  },
+  {
+    id: 4,
+    name: "กัญชาสายพันธุ์ Pineapple Express",
+    nameEn: "Pineapple Express",
+    category: "sativa",
+    price: 340,
+    thc: 20,
+    cbd: 0.1,
+    description: "สายพันธุ์ที่ให้ความรู้สึก energetic มีกลิ่นหอมเหมือนสับปะรดและผลไม้รสเปรี้ยว",
+    image: "https://images.unsplash.com/photo-1611699329144-7a673fb393b6?w=400&h=400&fit=crop",
+    inStock: false,
+    rating: 4.7,
+    reviews: 142
+  },
+  {
+    id: 5,
+    name: "กัญชาสายพันธุ์ Granddaddy Purple",
+    nameEn: "Granddaddy Purple",
+    category: "indica",
+    price: 360,
+    thc: 23,
+    cbd: 1.0,
+    description: "สายพันธุ์ indica ที่ให้ความรู้สึกผ่อนคลายอย่างลึกซึ้ง เหมาะสำหรับการพักผ่อนกลางคืน",
+    image: "https://images.unsplash.com/photo-1568359234191-9252e0d339a1?w=400&h=400&fit=crop",
+    inStock: true,
+    rating: 4.5,
+    reviews: 98
+  },
+  {
+    id: 6,
+    name: "กัญชาสายพันธุ Sour Diesel",
+    nameEn: "Sour Diesel",
+    category: "sativa",
+    price: 330,
+    thc: 21,
+    cbd: 0.3,
+    description: "สายพันธุ์ที่ให้พลังงานสูง มีกลิ่นเฉพาะตัวที่เป็นเอกลักษณ์ เหมาะสำหรับการทำงานและกิจกรรมที่ต้องการความตื่นตัว",
+    image: "https://images.unsplash.com/photo-1603095844334-7e40c1bc9b3e?w=400&h=400&fit=crop",
+    inStock: true,
+    rating: 4.4,
+    reviews: 167
+  },
+  {
+    id: 7,
+    name: "กัญชาสายพันธุ์ White Widow",
+    nameEn: "White Widow",
+    category: "hybrid",
+    price: 350,
+    thc: 19,
+    cbd: 0.6,
+    description: "สายพันธุ์ไฮบริดโลกคลาสสิก ให้ความรู้สึกสมดุลระหว่างความสดชื่นและความผ่อนคลาย",
+    image: "https://images.unsplash.com/photo-1590995461395-2a5c6b1aa497?w=400&h=400&fit=crop",
+    inStock: true,
+    rating: 4.6,
+    reviews: 234
+  },
+  {
+    id: 8,
+    name: "กัญชาสายพันธุ์ Northern Lights",
+    nameEn: "Northern Lights",
+    category: "indica",
+    price: 370,
+    thc: 24,
+    cbd: 0.4,
+    description: "สายพันธุ์ indica บริสุทธิ์ที่ให้ความรู้สึกผ่อนคลายสูง ช่วยบรรเทาอาการปวดและนอนไม่หลับ",
+    image: "https://images.unsplash.com/photo-1541240771906-789c1a1a6b4b?w=400&h=400&fit=crop",
+    inStock: true,
+    rating: 4.8,
+    reviews: 178
+  }
+];
+
+export const categories = [
+  { id: 'all', name: 'ทั้งหมด', nameEn: 'All' },
+  { id: 'indica', name: 'อินดิก้า', nameEn: 'Indica' },
+  { id: 'sativa', name: 'ซาติวา', nameEn: 'Sativa' },
+  { id: 'hybrid', name: 'ไฮบริด', nameEn: 'Hybrid' }
+];
