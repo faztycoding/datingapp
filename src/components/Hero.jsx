@@ -58,25 +58,43 @@ const Hero = () => {
           </div>
           
           <div className="relative">
+            {/* Background decoration */}
+            <div className="absolute inset-0 bg-gradient-to-r from-cannabis-accent/20 to-transparent rounded-3xl transform rotate-3"></div>
+            
             <div className="relative z-10">
               <img
-                src="https://images.unsplash.com/photo-1541240771906-789c1a1a6b4b?w=600&h=600&fit=crop"
+                src="https://images.unsplash.com/photo-1576086213361-9a2ce5c82db5?w=600&h=600&fit=crop&auto=format"
                 alt="Premium Cannabis"
-                className="rounded-2xl shadow-2xl w-full h-auto"
+                className="rounded-3xl shadow-2xl w-full h-auto transform hover:scale-105 transition-transform duration-300"
               />
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-white text-cannabis-green p-6 rounded-xl shadow-xl">
+            
+            {/* Rating card - improved positioning and styling */}
+            <div className="absolute -bottom-8 -right-8 bg-white text-cannabis-green p-6 rounded-2xl shadow-2xl border border-cannabis-accent/20 transform hover:scale-105 transition-all duration-300">
               <div className="flex items-center space-x-4">
-                <div className="text-3xl font-bold">4.8</div>
+                <div className="text-center">
+                  <div className="text-4xl font-bold bg-gradient-to-r from-cannabis-green to-cannabis-accent bg-clip-text text-transparent">4.8</div>
+                  <div className="text-xs text-gray-500 font-medium">RATING</div>
+                </div>
+                <div className="w-px h-12 bg-gray-200"></div>
                 <div>
-                  <div className="flex text-yellow-400">
+                  <div className="flex text-yellow-400 mb-1">
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} size={16} fill="currentColor" />
+                      <Star key={i} size={14} fill="currentColor" className={i < 4 ? '' : 'text-gray-300'} />
                     ))}
                   </div>
-                  <p className="text-sm text-gray-600">1,200+ รีวิว</p>
+                  <p className="text-sm font-semibold text-gray-700">1,200+ รีวิว</p>
+                  <p className="text-xs text-gray-500">ลูกค้าพึงพอใจ</p>
                 </div>
               </div>
+            </div>
+            
+            {/* Floating badges */}
+            <div className="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold shadow-lg animate-pulse">
+              สินค้าใหม่
+            </div>
+            <div className="absolute top-4 left-4 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold shadow-lg">
+              100% Organic
             </div>
           </div>
         </div>
