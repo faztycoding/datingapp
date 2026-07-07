@@ -90,9 +90,6 @@ const Hero = () => {
             </div>
             
             {/* Floating badges */}
-            <div className="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold shadow-lg animate-pulse">
-              สินค้าใหม่
-            </div>
             <div className="absolute top-4 left-4 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold shadow-lg">
               100% Organic
             </div>
