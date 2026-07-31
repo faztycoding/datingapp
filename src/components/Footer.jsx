@@ -3,23 +3,23 @@ import { Facebook, Instagram, MessageCircle, Phone, Mail, MapPin, Clock } from '
 
 const Footer = () => {
   return (
-    <footer className="bg-cannabis-green text-white">
+    <footer className="bg-primary text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                <span className="text-cannabis-green font-bold text-xl">🌿</span>
+                <span className="text-primary font-bold text-xl">🎯</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">Premium Cannabis</h3>
-                <p className="text-sm text-cannabis-accent">ร้านกัญชาคุณภาพ</p>
+                <h3 className="text-xl font-bold">Activity Match</h3>
+                <p className="text-sm text-white/80">หาเพื่อนร่วมทริป</p>
               </div>
             </div>
             <p className="text-gray-300 mb-4">
-              ผู้นำด้านจัดจำหน่ายกัญชาคุณภาพสูง 
-              ถูกกฎหมาย ปลอดภัย และเชื่อถือได้
+              แพลตฟอร์มหาเพื่อนร่วมทริปและกิจกรรม 
+              ปลอดภัย สนุก และสร้างความทรงจำดีๆ ไปด้วยกัน
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition-colors">
@@ -39,23 +39,23 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">เมนูลัด</h4>
             <ul className="space-y-2">
               <li><a href="#home" className="text-gray-300 hover:text-white transition-colors">หน้าแรก</a></li>
-              <li><a href="#products" className="text-gray-300 hover:text-white transition-colors">สินค้าทั้งหมด</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">สายพันธุ์อินดิก้า</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">สายพันธุ์ซาติวา</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">สายพันธุ์ไฮบริด</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">โปรโมชั่น</a></li>
+              <li><a href="#products" className="text-gray-300 hover:text-white transition-colors">กิจกรรมทั้งหมด</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">กิจกรรมอาหาร</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">กิจกรรมท่องเที่ยว</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">กิจกรรมกีฬา</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">สร้างกิจกรรม</a></li>
             </ul>
           </div>
 
           {/* Customer Service */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">บริการลูกค้า</h4>
+            <h4 className="text-lg font-semibold mb-4">บริการ</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">วิธีการสั่งซื้อ</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">การจัดส่ง</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">การคืนสินค้า</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">เงื่อนไขการใช้บริการ</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">วิธีใช้งาน</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">สร้างกิจกรรม</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">คำถามที่พบบ่อย</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">นโยบายความปลอดภัย</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">เงื่อนไขการใช้บริการ</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">ติดต่อเรา</a></li>
             </ul>
           </div>
@@ -65,28 +65,28 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">ติดต่อเรา</h4>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <Phone size={18} className="text-cannabis-accent" />
+                <Phone size={18} className="text-white/80" />
                 <div>
                   <p className="text-gray-300">โทรศัพท์</p>
                   <p className="font-semibold">099-123-4567</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail size={18} className="text-cannabis-accent" />
+                <Mail size={18} className="text-white/80" />
                 <div>
                   <p className="text-gray-300">อีเมล</p>
-                  <p className="font-semibold">info@premiumcannabis.com</p>
+                  <p className="font-semibold">info@activitymatch.com</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <MapPin size={18} className="text-cannabis-accent" />
+                <MapPin size={18} className="text-white/80" />
                 <div>
                   <p className="text-gray-300">ที่อยู่</p>
                   <p className="font-semibold">กรุงเทพมหานคร</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Clock size={18} className="text-cannabis-accent" />
+                <Clock size={18} className="text-white/80" />
                 <div>
                   <p className="text-gray-300">เวลาทำการ</p>
                   <p className="font-semibold">จันทร์-อาทิตย์ 10:00-22:00</p>
@@ -100,7 +100,7 @@ const Footer = () => {
         <div className="border-t border-white/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 text-sm mb-4 md:mb-0">
-              © 2024 Premium Cannabis. สงวนลิขสิทธิ์. ผลิตภัณฑ์กัญชาทางการแพทย์เท่านั้น
+              © 2024 Activity Match. สงวนลิขสิทธิ์. แพลตฟอร์มหาเพื่อนร่วมทริปและกิจกรรม
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-300 hover:text-white transition-colors">
@@ -116,12 +116,11 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Legal Notice */}
+        {/* Community Notice */}
         <div className="mt-6 p-4 bg-white/10 rounded-lg">
           <p className="text-sm text-center text-gray-300">
-            <strong>คำเตือน:</strong> ผลิตภัณฑ์กัญชาทางการแพทย์สำหรับผู้ที่มีอายุ 20 ปีขึ้นไปเท่านั้น 
-            ห้ามขับรถหรือทำงานที่ต้องใช้ความระมัดระวังหลังการใช้ 
-            ผลิตภัณฑ์นี้ไม่ใช่ยาแก้โรค ควรใช้ตามคำแนะนำของแพทย์หรือผู้เชี่ยวชาญ
+            <strong>ข้อแนะนำ:</strong> กรุณาตรวจสอบข้อมูลและความปลอดภัยก่อนเข้าร่วมกิจกรรม 
+            แจ้งปัญหาหรือข้อร้องเรียนได้ทางแชทหรืออีเมล
           </p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, ShoppingCart, Phone, MapPin } from 'lucide-react';
+import { Menu, X, Phone, MapPin, Heart } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,24 +14,24 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-cannabis-green rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl">🌿</span>
+            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+              <span className="text-white font-bold text-xl">�</span>
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-cannabis-green">Premium Cannabis</h1>
-              <p className="text-xs text-gray-600">ร้านกัญชาคุณภาพ</p>
+              <h1 className="text-2xl font-bold text-primary">Activity Match</h1>
+              <p className="text-xs text-gray-600">หาเพื่อนร่วมทริป</p>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-700 hover:text-cannabis-green transition-colors">หน้าแรก</a>
-            <a href="#products" className="text-gray-700 hover:text-cannabis-green transition-colors">สินค้า</a>
-            <a href="#about" className="text-gray-700 hover:text-cannabis-green transition-colors">เกี่ยวกับเรา</a>
-            <a href="#contact" className="text-gray-700 hover:text-cannabis-green transition-colors">ติดต่อ</a>
+            <a href="#home" className="text-gray-700 hover:text-primary transition-colors">หน้าแรก</a>
+            <a href="#products" className="text-gray-700 hover:text-primary transition-colors">กิจกรรม</a>
+            <a href="#about" className="text-gray-700 hover:text-primary transition-colors">เกี่ยวกับเรา</a>
+            <a href="#contact" className="text-gray-700 hover:text-primary transition-colors">ติดต่อ</a>
           </nav>
 
-          {/* Contact and Cart */}
+          {/* Contact */}
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm text-gray-600">
               <Phone size={16} />
@@ -41,9 +41,8 @@ const Header = () => {
               <MapPin size={16} />
               <span>กรุงเทพฯ</span>
             </div>
-            <button className="relative p-2 bg-cannabis-green text-white rounded-full hover:bg-cannabis-light transition-colors">
-              <ShoppingCart size={20} />
-              <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
+            <button className="relative p-2 bg-primary text-white rounded-full hover:bg-primary-dark transition-colors">
+              <Heart size={20} />
             </button>
           </div>
 
@@ -60,10 +59,10 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t">
             <nav className="flex flex-col space-y-4">
-              <a href="#home" className="text-gray-700 hover:text-cannabis-green transition-colors">หน้าแรก</a>
-              <a href="#products" className="text-gray-700 hover:text-cannabis-green transition-colors">สินค้า</a>
-              <a href="#about" className="text-gray-700 hover:text-cannabis-green transition-colors">เกี่ยวกับเรา</a>
-              <a href="#contact" className="text-gray-700 hover:text-cannabis-green transition-colors">ติดต่อ</a>
+              <a href="#home" className="text-gray-700 hover:text-primary transition-colors">หน้าแรก</a>
+              <a href="#products" className="text-gray-700 hover:text-primary transition-colors">กิจกรรม</a>
+              <a href="#about" className="text-gray-700 hover:text-primary transition-colors">เกี่ยวกับเรา</a>
+              <a href="#contact" className="text-gray-700 hover:text-primary transition-colors">ติดต่อ</a>
               <div className="flex items-center space-x-2 text-sm text-gray-600 pt-2">
                 <Phone size={16} />
                 <span>099-123-4567</span>
